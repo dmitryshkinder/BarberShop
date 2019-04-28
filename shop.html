@@ -229,19 +229,38 @@
         </div>
     </footer>
 
-    <!--
     <section class="modal modal-login">
-        <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
-        <p>ВВедите пожалуйста свой логин и пароль</p>
-         Тут будет форма 
-        <span class="modal-close">x</span>
+        <h2>Личный кабинет</h2>
+        <p class="modal-description">Введите пожалуйста свой логин и пароль</p>
+        <form action="https://htmlacademy.ru" class="login-form" method="post">
+            <p>
+                <label class="visually-hidden" for="user-login">Логин</label>
+                <input id="user-login" type="text" name="login" class="login-icon-user" placeholder="Логин">
+            </p>
+            <p>
+                <label class="visually-hidden" for="user-password">Пароль</label>
+                <input id="user-password" type="password" name="password" class="login-icon-password" placeholder="Пароль">
+            </p>
+            <p class="login-help">
+                <label class="login-checkbox">
+                    <input id="user-remember" type="checkbox" name="remember" class="visually-hidden">
+                    <span class="checkbox-indicator"></span>
+                    Запомните меня
+                </label>
+                <a href="#" class="restore">Я забыл пароль!</a>
+            </p>
+            <button class="button" type="submit">Войти</button>
+        </form>
+        <button class="modal-close" type="button">Закрыть</button>
     </section>
 
     <section class="modal modal-map">
         <h2 class="visually-hidden">Как добраться?</h2>
-        <span class="modal-close">x</span>
+        <p>
+            <img src="img/map.jpg" width="766" height="560" alt="Офис Компании по адрессу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+        </p>
+        <button class="modal-close" type="button">Закрыть</button>
     </section>
--->
 
 </body>
 
