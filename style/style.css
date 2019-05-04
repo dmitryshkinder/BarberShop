@@ -881,7 +881,6 @@ legend {
 
 .radio:checked:disabled + label:after {
     background: #b0aeac;
-
 }
 
 .checkbox {

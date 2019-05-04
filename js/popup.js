@@ -30,7 +30,7 @@
         form.addEventListener("submit", function (evt) {
             if (!login.value || !password.value) {
                 evt.preventDefault();
-                popup.classList.remove("modal-error");
+//                popup.classList.remove("modal-error");
                 popup.offsetWidth = popup.offsetWidth;
                 popup.classList.add("modal-error");
                 console.log("Форма трясётся");
@@ -38,7 +38,7 @@
                 if (isStorageSupport) {
                     localStorage.setItem("login", login.value);
                 }
-            }
+            } 
         });
 
         window.addEventListener("keydown", function (evt) {
