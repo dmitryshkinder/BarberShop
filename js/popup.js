@@ -12,7 +12,7 @@
 
         link.addEventListener("click", function (evt) {
             evt.preventDefault();
-            popup.classList.add("modal-show");
+            popup.classList.add("modal-show");c
             if (storage) {
                 login.value = storage;
                 password.focus();
